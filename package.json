@@ -1,0 +1,13 @@
+{
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "23.6.0"
+    },
+    "dependencies": {
+        "express":"4.16.4"
+    },
+    "scripts": {
+        "test": "jest",
+        "start": "node src/index.js"
+    }
+}
