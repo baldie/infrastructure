@@ -12,7 +12,7 @@ client.set('visits', 0)
 app.get('/', (req, res) => {
     client.get('visits', (err, visits) => {
         client.set('visits', parseInt(visits) + 1)
-        res.status(200).send(`<html><h1>Visits ${visits}</h1></html>`)
+        res.status(200).send(`<html><h1>Visits (${visits})!</h1></html>`)
     })
 })
 
