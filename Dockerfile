@@ -11,7 +11,7 @@ COPY ./package.json ./
 RUN npm i
 
 # copy over any other changes in the codebase
-COPY ./ ./
+COPY ./src ./src
 
 # launch
 CMD ["npm", "start"]
